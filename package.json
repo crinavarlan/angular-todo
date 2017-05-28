@@ -1,16 +1,24 @@
-
 {
-  "name": "a",
-  "version": "0.0.0",
-  "description": "",
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "This is a Todo app. It helps users to keep track of any things that they have todo.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bower": "~1.2.8"
-  }
+    "http-server": "^0.9.0",
+    "shelljs": "^0.2.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crinavarlan/angular-todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crinavarlan/angular-todo/issues"
+  },
+  "homepage": "https://github.com/crinavarlan/angular-todo#readme"
 }
